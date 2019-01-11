@@ -11,6 +11,9 @@ export default class LangButtons extends Component {
             textDecoration: 'none'
           }}
           to='/'
+          state={{
+            pleasant: 'reasonably'
+          }}
         >
           <Box
             justify='center'

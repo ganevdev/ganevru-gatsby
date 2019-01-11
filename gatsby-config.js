@@ -4,7 +4,7 @@ module.exports = {
     siteUrl: `https://ganev.ru`,
     description: `Ivan Ganev - personal site`
   },
-  pathPrefix: '/gatsby-starter-blog-grommet',
+  pathPrefix: '/',
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
