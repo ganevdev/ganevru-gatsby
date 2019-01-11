@@ -15,9 +15,16 @@ export const siteTheme = {
       }
     },
     paragraph: {
+      small: {
+        maxWidth: '620px'
+      },
       medium: {
-        maxWidth: '600px'
+        maxWidth: '620px'
       }
+    },
+    font: {
+      family:
+        'Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans",  "Helvetica Neue", Arial'
     }
   }
 }
