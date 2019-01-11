@@ -31,6 +31,7 @@ const Page = () => (
 * [Jest](https://jestjs.io) вместо [Mocha](https://mochajs.org/).
 * [standard js](https://standardjs.com/) вместо [airbnb style](https://www.npmjs.com/package/eslint-config-airbnb-base).
 * Любой UI фреймворк, особенно [Grommet](https://grommet.io/), вместо создания всего с нуля.
+* ES6+ возможности и [lodash](https://lodash.com) вместо старых JS концепций - таких как loops ([eslint-plugin-no-loops](https://www.npmjs.com/package/eslint-plugin-no-loops)).
 
 Это лист того с чем я предпочитаю работать, а не список того что я считаю лучше в любых ситуациях.
       `}
