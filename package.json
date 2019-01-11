@@ -1,42 +1,24 @@
 {
-  "name": "gatsby-starter-blog-grommet",
-  "description": "Starter Gatsby Blog wish Grommet v2",
-  "homepage": "https://github.com/ganevru/gatsby-starter-blog-grommet",
+  "name": "ganevru",
+  "description": "ganev.ru site",
+  "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ganevru/gatsby-starter-blog-grommet.git"
+    "url": "git+https://github.com/Ganevru/ganevru.git"
   },
-  "version": "1.0.0",
   "author": "Ivan Ganev <iganevru@gmail.com>",
-  "keywords": [
-    "gatsby",
-    "grommet"
-  ],
   "license": "MIT",
   "main": "n/a",
   "dependencies": {
     "gatsby": "^2.0.91",
     "gatsby-cli": "^2.4.8",
-    "gatsby-image": "^2.0.26",
-    "gatsby-plugin-feed": "^2.0.11",
-    "gatsby-plugin-google-analytics": "^2.0.9",
-    "gatsby-plugin-manifest": "^2.0.13",
-    "gatsby-plugin-offline": "^2.0.21",
+    "gatsby-plugin-google-tagmanager": "^2.0.7",
     "gatsby-plugin-react-helmet": "^3.0.5",
-    "gatsby-plugin-sharp": "^2.0.17",
-    "gatsby-plugin-sitemap": "^2.0.4",
     "gatsby-plugin-styled-components": "^3.0.4",
-    "gatsby-remark-copy-linked-files": "^2.0.8",
-    "gatsby-remark-images": "^3.0.1",
-    "gatsby-remark-responsive-iframe": "^2.0.8",
-    "gatsby-remark-smartypants": "^2.0.7",
     "gatsby-source-filesystem": "^2.0.13",
-    "gatsby-transformer-remark": "^2.2.0",
-    "gatsby-transformer-sharp": "^2.1.10",
     "grommet": "^2.3.1",
     "grommet-icons": "^4.1.0",
     "lodash": "^4.17.11",
-    "markdown-to-jsx": "6.9.0",
     "prop-types": "^15.6.2",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
@@ -45,7 +27,6 @@
     "babel-eslint": "9.0.0"
   },
   "devDependencies": {
-    "gh-pages": "^2.0.1",
     "eslint": "^5.10.0",
     "eslint-config-standard": "^11.0.0",
     "eslint-config-standard-jsx": "^6.0.2",

@@ -1,33 +1,23 @@
-import siteConfig from '../site-config'
-
-// https://github.com/grommet/grommet/wiki/Grommet-v2-theming-documentation
-// https://github.com/grommet/grommet/tree/NEXT/src/js/themes
 export const siteTheme = {
   global: {
-    font: {
-      family: siteConfig.font
-    },
-    colors: {
-      brand: siteConfig.brandColor
-    },
     breakpoints: {
       xsmall: {
-        value: 500
+        value: 600
       },
       small: {
-        value: 1000
+        value: 1200
       },
       medium: {
-        value: 1200
+        value: 1400
       },
       middle: {
         value: 3000
       }
-    }
-  },
-  heading: {
-    font: {
-      family: siteConfig.fontHeadings
+    },
+    paragraph: {
+      medium: {
+        maxWidth: '600px'
+      }
     }
   }
 }
