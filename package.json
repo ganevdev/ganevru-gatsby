@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ganevru/ganevru.git"
+    "url": "git+https://github.com/Ganevru/ganevru-gatsby.git"
   },
   "author": "Ivan Ganev <iganevru@gmail.com>",
   "license": "MIT",
