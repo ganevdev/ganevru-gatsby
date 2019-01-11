@@ -1,8 +1,8 @@
-const siteConfig = require('./site-config')
-
 module.exports = {
   siteMetadata: {
-    ...siteConfig
+    title: `Ganev`,
+    siteUrl: `https://ganev.ru`,
+    description: `Ivan Ganev - personal site`
   },
   pathPrefix: '/gatsby-starter-blog-grommet',
   plugins: [

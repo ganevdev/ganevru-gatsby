@@ -44,8 +44,8 @@ const Page = () => (
     <Markdown>
       {`
 ### Мои работы:
-[https://www.esportset.com](https://www.esportset.com) - основной проект на данный момент.  
-[https://www.esportset.com](https://www.esportset.com) - то же самое, но на русском.
+[https://www.esportset.com](https://www.esportset.com)  
+[https://www.cyberset.org](https://www.cyberset.org) - то же самое, но на русском.
 
 [gatsby-starter-blog-grommet](https://github.com/Ganevru/gatsby-starter-blog-grommet) - стартер для Gatsby v2 основанный на Grommet v2 UI.
 
