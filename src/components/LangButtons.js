@@ -11,13 +11,10 @@ export default class LangButtons extends Component {
             textDecoration: 'none'
           }}
           to='/'
-          state={{
-            pleasant: 'reasonably'
-          }}
         >
           <Box
             justify='center'
-            background='brand'
+            background={this.props.pathname === '/' ? 'brand' : 'dark-6'}
             pad={{ horizontal: 'medium', vertical: 'xsmall' }}
             direction='row'
             round
@@ -36,7 +33,7 @@ export default class LangButtons extends Component {
         >
           <Box
             justify='center'
-            background='brand'
+            background={this.props.pathname === '/' ? 'dark-6' : 'brand'}
             pad={{ horizontal: 'medium', vertical: 'xsmall' }}
             direction='row'
             round

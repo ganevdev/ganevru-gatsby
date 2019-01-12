@@ -6,7 +6,7 @@ import Layout from '../components/Layout'
 import SocButtons from '../components/SocButtons'
 import LangButtons from '../components/LangButtons'
 
-const Page = () => (
+const Page = props => (
   <Layout>
     <Helmet
       htmlAttributes={{ lang: 'ru' }}
@@ -16,7 +16,7 @@ const Page = () => (
       title={'Иван Ганев'}
     />
     <Heading margin={{ vertical: 'small' }}>Иван Ганев</Heading>
-    <LangButtons />
+    <LangButtons pathname={props.location.pathname} />
     <Markdown>
       {`
 Привет, я JavaScript разработчик. Работаю с [React js](https://reactjs.org/), особенно с SSG [Gatsby js](https://www.gatsbyjs.org/) и [Grommet](https://grommet.io/). Я так же работаю с [Node js](https://nodejs.org/), и всем что относится к этим технологиям.
