@@ -46,16 +46,16 @@ This is a list of what I prefer, but, of course, what I chose for myself does no
     <Markdown>
       {`
 ### My works:
-[https://www.esportset.com](https://www.esportset.com) - My main project at the moment.  
-[https://www.cyberset.org](https://www.cyberset.org) - Russian version.
+[https://www.esportset.com](https://www.esportset.com) - my main project at the moment.  
+[https://www.cyberset.org](https://www.cyberset.org) - russian version.
 
-[gatsby-starter-blog-grommet](https://github.com/Ganevru/gatsby-starter-blog-grommet) - A Gatsby v2 starter based on Grommet v2 UI.
+[gatsby-starter-blog-grommet](https://github.com/Ganevru/gatsby-starter-blog-grommet) - a Gatsby v2 starter based on Grommet v2 UI.
 
-[eslint-config-ganevru](https://www.npmjs.com/package/@ganevru/eslint-config-ganevru) - My personal eslint configurations.
+[eslint-config-ganevru](https://www.npmjs.com/package/@ganevru/eslint-config-ganevru) - my personal eslint configurations.
 
-[ganevru-gatsby](https://github.com/Ganevru/ganevru-gatsby) - Repository of this site.
+[ganevru-gatsby](https://github.com/Ganevru/ganevru-gatsby) - repository of this site.
 
-[behance.net/IvanGanev](https://www.behance.net/IvanGanev) - Some infographics.
+[behance.net/IvanGanev](https://www.behance.net/IvanGanev) - some infographics.
 
 ### Courses:
 [www.Codecademy.com/ivanganev](https://www.codecademy.com/ivanganev) 
