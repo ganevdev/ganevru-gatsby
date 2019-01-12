@@ -50,6 +50,8 @@ const Page = props => (
 
 [gatsby-starter-blog-grommet](https://github.com/Ganevru/gatsby-starter-blog-grommet) - стартер для Gatsby v2 основанный на Grommet v2 UI.
 
+[eslint-config-ganevru](https://www.npmjs.com/package/@ganevru/eslint-config-ganevru) - Мои eslint настройки.
+
 [ganevru-gatsby](https://github.com/Ganevru/ganevru-gatsby) - репозитарий этого сайта.
 
 [behance.net/IvanGanev](https://www.behance.net/IvanGanev) - некоторая инфографика.
