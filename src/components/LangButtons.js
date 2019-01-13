@@ -1,6 +1,6 @@
-import React, { Component } from 'react'
-import { Link } from 'gatsby'
 import { Box, Text } from 'grommet'
+import { Link } from 'gatsby'
+import React, { Component } from 'react'
 
 export default class LangButtons extends Component {
   render () {

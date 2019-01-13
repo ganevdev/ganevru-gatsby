@@ -1,9 +1,9 @@
-import { Box, Grommet } from 'grommet'
-import { createGlobalStyle } from 'styled-components'
-import { grommet } from 'grommet/themes'
-import React from 'react'
+import { Box, Grommet } from "grommet";
+import { createGlobalStyle } from "styled-components";
+import { grommet } from "grommet/themes";
+import React from "react";
 
-import { siteTheme } from '../site-theme'
+import { siteTheme } from "../site-theme";
 
 const GlobalStyle = createGlobalStyle`
   img {
@@ -15,29 +15,29 @@ const GlobalStyle = createGlobalStyle`
   a:hover {
     opacity: 0.9;
   }
-`
+`;
 
 export default props => {
   return (
     <Grommet theme={grommet}>
       <Grommet theme={siteTheme}>
         <GlobalStyle />
-        <Box align='center'>
-          <Box width='large'>
-            <Box margin={{ bottom: 'medium' }} />
+        <Box align="center">
+          <Box width="large">
+            <Box margin={{ bottom: "medium" }} />
             <Box
-              background='light-3'
+              background="light-3"
               round
-              margin='medium'
-              pad='large'
-              elevation='medium'
+              margin="medium"
+              pad="large"
+              elevation="medium"
             >
               {props.children}
             </Box>
-            <Box margin={{ top: 'xlarge' }} />
+            <Box margin={{ top: "xlarge" }} />
           </Box>
         </Box>
       </Grommet>
     </Grommet>
-  )
-}
+  );
+};

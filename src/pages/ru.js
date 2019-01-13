@@ -1,10 +1,10 @@
-import React from 'react'
+import { Box, Heading, Markdown } from 'grommet'
 import Helmet from 'react-helmet'
-import { Heading, Markdown, Box } from 'grommet'
+import React from 'react'
 
+import LangButtons from '../components/LangButtons'
 import Layout from '../components/Layout'
 import SocButtons from '../components/SocButtons'
-import LangButtons from '../components/LangButtons'
 
 const Page = props => (
   <Layout>
@@ -31,7 +31,6 @@ const Page = props => (
 * [Jest](https://jestjs.io) вместо [Mocha](https://mochajs.org/).
 * [standard js](https://standardjs.com/) вместо [airbnb style](https://www.npmjs.com/package/eslint-config-airbnb-base).
 * Любой UI фреймворк, особенно [Grommet](https://grommet.io/), вместо создания всего с нуля.
-* ES6+ возможности и [lodash](https://lodash.com) вместо старых JS концепций - таких как loops ([eslint-plugin-no-loops](https://www.npmjs.com/package/eslint-plugin-no-loops)).
 
 Это лист того с чем я предпочитаю работать, а не список того что я считаю лучше в любых ситуациях.
       `}
@@ -50,7 +49,7 @@ const Page = props => (
 
 [gatsby-starter-blog-grommet](https://github.com/Ganevru/gatsby-starter-blog-grommet) - стартер для Gatsby v2 основанный на Grommet v2 UI.
 
-[eslint-config-ganevru](https://www.npmjs.com/package/@ganevru/eslint-config-ganevru) - Мои eslint настройки.
+[eslint-config-ganevru](https://www.npmjs.com/package/eslint-config-ganevru) - мои eslint настройки.
 
 [ganevru-gatsby](https://github.com/Ganevru/ganevru-gatsby) - репозитарий этого сайта.
 
