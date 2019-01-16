@@ -63,7 +63,7 @@ const Page = (props) => (
       `}
     </Markdown>
     <Box margin={{ vertical: 'medium' }} />
-    <LangButtons />
+    <LangButtons pathname={props.location.pathname} />
   </Layout>
 )
 

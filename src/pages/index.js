@@ -64,7 +64,7 @@ This is a list of what I prefer, but, of course, what I chose for myself does no
       `}
     </Markdown>
     <Box margin={{ vertical: 'medium' }} />
-    <LangButtons />
+    <LangButtons pathname={props.location.pathname} />
   </Layout>
 )
 
