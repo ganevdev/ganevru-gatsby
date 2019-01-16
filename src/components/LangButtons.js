@@ -1,26 +1,26 @@
-import { Box, Text } from 'grommet'
-import { Link } from 'gatsby'
-import PropTypes from 'prop-types'
-import React from 'react'
+import { Box, Text } from 'grommet';
+import { Link } from 'gatsby';
+import PropTypes from 'prop-types';
+import React from 'react';
 
 const LangButtons = (props) => {
-  const { pathname } = props
+  const { pathname } = props;
   return (
-    <Box gap='medium' width='small' direction='row-responsive'>
+    <Box gap="medium" width="small" direction="row-responsive">
       <Link
         style={{
-          textDecoration: 'none'
+          textDecoration: 'none',
         }}
-        to='/'
+        to="/"
       >
         <Box
-          justify='center'
+          justify="center"
           background={pathname === '/' ? 'brand' : 'dark-6'}
           pad={{ horizontal: 'medium', vertical: 'xsmall' }}
-          direction='row'
+          direction="row"
           round
         >
-          <Text weight='bold' size='medium' margin={{ horizontal: 'xsmall' }}>
+          <Text weight="bold" size="medium" margin={{ horizontal: 'xsmall' }}>
             English
           </Text>
         </Box>
@@ -28,27 +28,32 @@ const LangButtons = (props) => {
       {/*  */}
       <Link
         style={{
-          textDecoration: 'none'
+          textDecoration: 'none',
         }}
-        to='/ru'
+        to="/ru"
       >
         <Box
-          justify='center'
+          justify="center"
           background={pathname === '/' ? 'dark-6' : 'brand'}
           pad={{ horizontal: 'medium', vertical: 'xsmall' }}
-          direction='row'
+          direction="row"
           round
         >
-          <Text weight='bold' size='medium' margin={{ horizontal: 'xsmall' }}>
+          <Text weight="bold" size="medium" margin={{ horizontal: 'xsmall' }}>
             Русский
           </Text>
         </Box>
       </Link>
     </Box>
-  )
-}
-LangButtons.propTypes = {
-  pathname: PropTypes.string
-}
+  );
+};
 
-export default LangButtons
+LangButtons.propTypes = {
+  pathname: PropTypes.string,
+};
+
+LangButtons.defaultProps = {
+  pathname: '/',
+};
+
+export default LangButtons;

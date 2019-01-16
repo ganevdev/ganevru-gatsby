@@ -7,7 +7,7 @@ import LangButtons from '../components/LangButtons';
 import Layout from '../components/Layout';
 import SocButtons from '../components/SocButtons';
 
-const Page = props => (
+const Page = ({ location }) => (
   <Layout>
     <Helmet
       htmlAttributes={{ lang: 'en' }}
@@ -17,7 +17,7 @@ const Page = props => (
       title="Ivan Ganev"
     />
     <Heading margin={{ vertical: 'small' }}>Ivan Ganev</Heading>
-    <LangButtons pathname={props.location.pathname} />
+    <LangButtons pathname={location.pathname} />
     <Markdown>
       {`
 Hi, I'm a JavaScript developer. I prefer to work with [React js](https://reactjs.org/), especially with SSG [Gatsby js](https://www.gatsbyjs.org/) and [Grommet](https://grommet.io/). I also work with [Node js](https://nodejs.org/), and everything related to these technologies.
@@ -64,7 +64,7 @@ This is a list of what I prefer, but, of course, what I chose for myself does no
       `}
     </Markdown>
     <Box margin={{ vertical: 'medium' }} />
-    <LangButtons pathname={props.location.pathname} />
+    <LangButtons pathname={location.pathname} />
   </Layout>
 );
 

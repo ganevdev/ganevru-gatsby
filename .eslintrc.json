@@ -1,5 +1,5 @@
 {
   "extends": [
-    "ganevru/gatsby.js"
+    "eslint-config-ganevru/gatsby.js"
   ]
 }
