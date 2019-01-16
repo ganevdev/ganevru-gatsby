@@ -20,6 +20,18 @@ module.exports = {
       }
     },
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-styled-components`
+    `gatsby-plugin-styled-components`,
+    {
+      resolve: 'gatsby-plugin-eslint',
+      options: {
+        test: /\.js$/,
+        exclude: /(node_modules|cache|public)/,
+        options: {
+          fix: true,
+          emitWarning: true,
+          failOnError: false
+        }
+      }
+    }
   ]
 }
