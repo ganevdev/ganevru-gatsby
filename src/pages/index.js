@@ -1,20 +1,20 @@
-import { Box, Heading, Markdown } from 'grommet'
-import Helmet from 'react-helmet'
-import PropTypes from 'prop-types'
-import React from 'react'
+import { Box, Heading, Markdown } from 'grommet';
+import Helmet from 'react-helmet';
+import PropTypes from 'prop-types';
+import React from 'react';
 
-import LangButtons from '../components/LangButtons'
-import Layout from '../components/Layout'
-import SocButtons from '../components/SocButtons'
+import LangButtons from '../components/LangButtons';
+import Layout from '../components/Layout';
+import SocButtons from '../components/SocButtons';
 
-const Page = (props) => (
+const Page = props => (
   <Layout>
     <Helmet
       htmlAttributes={{ lang: 'en' }}
       meta={[
-        { name: 'description', content: 'Ivan Ganev, JavaScript developer' }
+        { name: 'description', content: 'Ivan Ganev, JavaScript developer' },
       ]}
-      title={'Ivan Ganev'}
+      title="Ivan Ganev"
     />
     <Heading margin={{ vertical: 'small' }}>Ivan Ganev</Heading>
     <LangButtons pathname={props.location.pathname} />
@@ -38,7 +38,7 @@ This is a list of what I prefer, but, of course, what I chose for myself does no
       `}
     </Markdown>
 
-    <Heading level='3' margin={{ vertical: 'xsmall' }}>
+    <Heading level="3" margin={{ vertical: 'xsmall' }}>
       You can find me here:
     </Heading>
     <SocButtons />
@@ -66,10 +66,10 @@ This is a list of what I prefer, but, of course, what I chose for myself does no
     <Box margin={{ vertical: 'medium' }} />
     <LangButtons pathname={props.location.pathname} />
   </Layout>
-)
+);
 
 Page.propTypes = {
-  location: PropTypes.object
-}
+  location: PropTypes.object,
+};
 
-export default Page
+export default Page;

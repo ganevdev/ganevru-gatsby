@@ -1,3 +1,5 @@
 {
-  "extends": ["ganevru/gatsby.js"]
+  "extends": [
+    "ganevru/gatsby.js"
+  ]
 }

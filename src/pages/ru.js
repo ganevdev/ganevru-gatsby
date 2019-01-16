@@ -1,20 +1,18 @@
-import { Box, Heading, Markdown } from 'grommet'
-import Helmet from 'react-helmet'
-import PropTypes from 'prop-types'
-import React from 'react'
+import { Box, Heading, Markdown } from 'grommet';
+import Helmet from 'react-helmet';
+import PropTypes from 'prop-types';
+import React from 'react';
 
-import LangButtons from '../components/LangButtons'
-import Layout from '../components/Layout'
-import SocButtons from '../components/SocButtons'
+import LangButtons from '../components/LangButtons';
+import Layout from '../components/Layout';
+import SocButtons from '../components/SocButtons';
 
-const Page = (props) => (
+const Page = props => (
   <Layout>
     <Helmet
       htmlAttributes={{ lang: 'ru' }}
-      meta={[
-        { name: 'description', content: 'Иван Ганев, JavaScript разработчик' }
-      ]}
-      title={'Иван Ганев'}
+      meta={[{ name: 'description', content: 'Иван Ганев, JavaScript разработчик' }]}
+      title="Иван Ганев"
     />
     <Heading margin={{ vertical: 'small' }}>Иван Ганев</Heading>
     <LangButtons pathname={props.location.pathname} />
@@ -37,7 +35,7 @@ const Page = (props) => (
       `}
     </Markdown>
 
-    <Heading level='3' margin={{ vertical: 'xsmall' }}>
+    <Heading level="3" margin={{ vertical: 'xsmall' }}>
       Меня можно найти здесь:
     </Heading>
     <SocButtons />
@@ -65,10 +63,10 @@ const Page = (props) => (
     <Box margin={{ vertical: 'medium' }} />
     <LangButtons pathname={props.location.pathname} />
   </Layout>
-)
+);
 
 Page.propTypes = {
-  location: PropTypes.object
-}
+  location: PropTypes.object,
+};
 
-export default Page
+export default Page;
