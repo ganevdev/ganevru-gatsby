@@ -1,12 +1,13 @@
 import { Box, Heading, Markdown } from 'grommet'
 import Helmet from 'react-helmet'
+import PropTypes from 'prop-types'
 import React from 'react'
 
 import LangButtons from '../components/LangButtons'
 import Layout from '../components/Layout'
 import SocButtons from '../components/SocButtons'
 
-const Page = props => (
+const Page = (props) => (
   <Layout>
     <Helmet
       htmlAttributes={{ lang: 'en' }}
@@ -52,6 +53,8 @@ This is a list of what I prefer, but, of course, what I chose for myself does no
 
 [eslint-config-ganevru](https://www.npmjs.com/package/eslint-config-ganevru) - my personal eslint configurations.
 
+[Slime Solid Theme](https://marketplace.visualstudio.com/items?itemName=ganevru.slime-solid) - changed Slime theme (for VS Code).
+
 [ganevru-gatsby](https://github.com/Ganevru/ganevru-gatsby) - repository of this site.
 
 [behance.net/IvanGanev](https://www.behance.net/IvanGanev) - some infographics.
@@ -64,5 +67,9 @@ This is a list of what I prefer, but, of course, what I chose for myself does no
     <LangButtons />
   </Layout>
 )
+
+Page.propTypes = {
+  location: PropTypes.object
+}
 
 export default Page

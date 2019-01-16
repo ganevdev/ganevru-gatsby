@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "eslint": "^5.10.0",
-    "babel-eslint": "9.0.0",
+    "babel-eslint": "^9.0.0",
     "prettier": "^1.15.3",
     "eslint-config-ganevru": "git://github.com/Ganevru/eslint-config-ganevru#master"
   },
