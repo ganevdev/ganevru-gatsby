@@ -52,7 +52,11 @@
     "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "dev": "gatsby develop",
     "develop": "gatsby develop",
-    "test": "jest"
+    "lint": "lint-fix lint-quiet",
+    "lint-fix": "eslint '*.js' --fix",
+    "lint-quiet": "eslint '*.js' --quiet",
+    "test": "npm run -s lint jest",
+    "jest": "jest"
   },
   "version": "1.0.0"
 }
