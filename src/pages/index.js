@@ -30,7 +30,6 @@ I am ready to work as a freelancer, write me here: **iganevru@gmail.com**
 * [MongoDB](https://www.mongodb.com/) over any SQL database.
 * [React js](https://reactjs.org/) over [Vue js](https://vuejs.org/).
 * [Jest](https://jestjs.io) over [Mocha](https://mochajs.org/).
-* [standard js](https://standardjs.com/) over [airbnb style](https://www.npmjs.com/package/eslint-config-airbnb-base).
 * Any UI framework, especially [Grommet](https://grommet.io/), over starting from scratch.
 
 

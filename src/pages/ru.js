@@ -28,7 +28,6 @@ const Page = ({ location }) => (
 * [MongoDB](https://www.mongodb.com/) вместо любых SQL баз данных.
 * [React js](https://reactjs.org/) вместо [Vue js](https://vuejs.org/).
 * [Jest](https://jestjs.io) вместо [Mocha](https://mochajs.org/).
-* [standard js](https://standardjs.com/) вместо [airbnb style](https://www.npmjs.com/package/eslint-config-airbnb-base).
 * Любой UI фреймворк, особенно [Grommet](https://grommet.io/), вместо создания всего с нуля.
 
 Это лист того с чем я предпочитаю работать, а не список того что я считаю лучше в любых ситуациях.
