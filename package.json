@@ -30,15 +30,14 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "jest lint-staged"
     }
   },
   "license": "MIT",
   "lint-staged": {
     "*.js": [
       "eslint --fix",
-      "git add",
-      "jest --bail --findRelatedTests"
+      "git add"
     ]
   },
   "main": "n/a",
