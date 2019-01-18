@@ -33,7 +33,7 @@
   },
   "license": "MIT",
   "lint-staged": {
-    "*.{js,json}": [
+    "*.js": [
       "eslint --fix",
       "git add"
     ]
