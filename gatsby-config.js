@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Ivan Ganev',
     siteUrl: 'https://ganev.ru',
-    description: 'Ivan Ganev - personal site',
+    description: 'Ivan Ganev - personal site'
   },
   pathPrefix: '/',
   plugins: [
@@ -10,28 +10,17 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/src/pages`,
-        name: 'pages',
-      },
+        name: 'pages'
+      }
     },
     {
       resolve: 'gatsby-plugin-google-tagmanager',
       options: {
-        id: 'GTM-MWQ6LRR',
-      },
+        id: 'GTM-MWQ6LRR'
+      }
     },
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-styled-components',
-    {
-      resolve: 'gatsby-plugin-eslint',
-      options: {
-        test: /\.js$/,
-        exclude: /(node_modules|cache|public)/,
-        options: {
-          fix: true,
-          emitWarning: true,
-          failOnError: false,
-        },
-      },
-    },
-  ],
+    `gatsby-plugin-typescript`
+  ]
 };

@@ -6,7 +6,7 @@ const SocButtons = () => (
   <Box gap="medium" width="small" direction="row-responsive">
     <a
       style={{
-        textDecoration: 'none',
+        textDecoration: 'none'
       }}
       href="https://twitter.com/Ganevru"
     >
@@ -15,7 +15,7 @@ const SocButtons = () => (
         background="brand"
         pad={{ horizontal: 'medium', vertical: 'small' }}
         direction="row"
-        round
+        round={true}
       >
         <Twitter size="medium" />
         <Text weight="bold" size="medium" margin={{ horizontal: 'xsmall' }}>
@@ -26,7 +26,7 @@ const SocButtons = () => (
     {/*  */}
     <a
       style={{
-        textDecoration: 'none',
+        textDecoration: 'none'
       }}
       href="https://github.com/Ganevru"
     >
@@ -35,7 +35,7 @@ const SocButtons = () => (
         background="brand"
         pad={{ horizontal: 'medium', vertical: 'small' }}
         direction="row"
-        round
+        round={true}
       >
         <Github size="medium" />
         <Text weight="bold" size="medium" margin={{ horizontal: 'xsmall' }}>

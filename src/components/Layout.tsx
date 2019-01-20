@@ -1,8 +1,7 @@
 import { Box, Grommet } from 'grommet';
-import { createGlobalStyle } from 'styled-components';
 import { grommet } from 'grommet/themes';
-import PropTypes from 'prop-types';
 import React from 'react';
+import { createGlobalStyle } from 'styled-components';
 
 import siteTheme from '../site-theme';
 
@@ -18,7 +17,7 @@ const GlobalStyle = createGlobalStyle`
   }
 `;
 
-const Layout = ({ children }) => (
+const Layout = ({ children }: any): any => (
   <Grommet theme={grommet}>
     <Grommet theme={siteTheme}>
       <GlobalStyle />
@@ -27,7 +26,7 @@ const Layout = ({ children }) => (
           <Box margin={{ bottom: 'medium' }} />
           <Box
             background="light-3"
-            round
+            round={true}
             margin="medium"
             pad="large"
             elevation="medium"
@@ -40,9 +39,5 @@ const Layout = ({ children }) => (
     </Grommet>
   </Grommet>
 );
-
-Layout.propTypes = {
-  children: PropTypes.node.isRequired,
-};
 
 export default Layout;
