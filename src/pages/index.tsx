@@ -6,7 +6,7 @@ import LangButtons from '../components/LangButtons';
 import Layout from '../components/Layout';
 import SocButtons from '../components/SocButtons';
 
-const Page = ({ location: {} }) => (
+const Page = ({ location }) => (
   <Layout>
     <Helmet
       htmlAttributes={{ lang: 'en' }}
