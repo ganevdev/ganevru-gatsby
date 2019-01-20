@@ -1,16 +1,10 @@
 {
-  "extends": [
-    "tslint:latest",
-    "tslint-config-prettier",
-    "tslint-react",
-    "tslint-immutable/all"
-  ],
+  "extends": ["tslint:latest", "tslint-config-prettier", "tslint-react"],
   "jsRules": {
     "object-literal-sort-keys": false
   },
   "rulesDirectory": [],
   "rules": {
-    "no-let": false,
     "jsx-no-multiline-js": false,
     "no-submodule-imports": false,
     "object-literal-sort-keys": false
