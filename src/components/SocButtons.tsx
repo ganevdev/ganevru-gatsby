@@ -1,6 +1,6 @@
 import { Box, Text } from 'grommet';
 import { Github, Twitter } from 'grommet-icons';
-import React from 'react';
+import * as React from 'react';
 
 const SocButtons = () => (
   <Box gap="medium" width="small" direction="row-responsive">

@@ -1,9 +1,8 @@
 import { Link } from 'gatsby';
 import { Box, Text } from 'grommet';
-import propTypes from 'prop-types';
-import React from 'react';
+import * as React from 'react';
 
-const LangButtons = (props: {}) => {
+const LangButtons = (props: { pathname: '/' | '/ru' }) => {
   const { pathname } = props;
   return (
     <Box gap="medium" width="small" direction="row-responsive">

@@ -1,6 +1,6 @@
 import { Box, Grommet } from 'grommet';
 import { grommet } from 'grommet/themes';
-import React from 'react';
+import * as React from 'react';
 import { createGlobalStyle } from 'styled-components';
 
 import siteTheme from '../site-theme';
