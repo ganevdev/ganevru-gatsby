@@ -1,15 +1,15 @@
-import { Box, Text } from 'grommet';
 import { Link } from 'gatsby';
-import PropTypes from 'prop-types';
+import { Box, Text } from 'grommet';
+import propTypes from 'prop-types';
 import React from 'react';
 
-const LangButtons = (props) => {
+const LangButtons = (props: {}) => {
   const { pathname } = props;
   return (
     <Box gap="medium" width="small" direction="row-responsive">
       <Link
         style={{
-          textDecoration: 'none',
+          textDecoration: 'none'
         }}
         to="/"
       >
@@ -18,7 +18,7 @@ const LangButtons = (props) => {
           background={pathname === '/' ? 'brand' : 'dark-6'}
           pad={{ horizontal: 'medium', vertical: 'xsmall' }}
           direction="row"
-          round
+          round={true}
         >
           <Text weight="bold" size="medium" margin={{ horizontal: 'xsmall' }}>
             English
@@ -28,7 +28,7 @@ const LangButtons = (props) => {
       {/*  */}
       <Link
         style={{
-          textDecoration: 'none',
+          textDecoration: 'none'
         }}
         to="/ru"
       >
@@ -37,7 +37,7 @@ const LangButtons = (props) => {
           background={pathname === '/' ? 'dark-6' : 'brand'}
           pad={{ horizontal: 'medium', vertical: 'xsmall' }}
           direction="row"
-          round
+          round={true}
         >
           <Text weight="bold" size="medium" margin={{ horizontal: 'xsmall' }}>
             Русский
@@ -46,14 +46,6 @@ const LangButtons = (props) => {
       </Link>
     </Box>
   );
-};
-
-LangButtons.propTypes = {
-  pathname: PropTypes.string,
-};
-
-LangButtons.defaultProps = {
-  pathname: '/',
 };
 
 export default LangButtons;

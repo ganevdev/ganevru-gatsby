@@ -1,7 +1,6 @@
 import { Box, Heading, Markdown } from 'grommet';
-import Helmet from 'react-helmet';
-import PropTypes from 'prop-types';
 import React from 'react';
+import Helmet from 'react-helmet';
 
 import LangButtons from '../components/LangButtons';
 import Layout from '../components/Layout';
@@ -11,7 +10,9 @@ const Page = ({ location }) => (
   <Layout>
     <Helmet
       htmlAttributes={{ lang: 'ru' }}
-      meta={[{ name: 'description', content: 'Иван Ганев, JavaScript разработчик' }]}
+      meta={[
+        { name: 'description', content: 'Иван Ганев, JavaScript разработчик' }
+      ]}
       title="Иван Ганев"
     />
     <Heading margin={{ vertical: 'small' }}>Иван Ганев</Heading>
@@ -19,7 +20,7 @@ const Page = ({ location }) => (
     <Markdown>
       {`
 Привет, я JavaScript разработчик. Работаю с [React js](https://reactjs.org/), особенно с SSG [Gatsby js](https://www.gatsbyjs.org/) и [Grommet](https://grommet.io/). Я так же работаю с [Node js](https://nodejs.org/), и всем что относится к этим технологиям.
-      
+
 Я работаю в качестве фрилансера, можете писать мне сюда: **iganevru@gmail.com**
 
 ###Я предпочитаю:
@@ -42,7 +43,7 @@ const Page = ({ location }) => (
     <Markdown>
       {`
 ### Мои работы:
-[https://www.esportset.com](https://www.esportset.com)  
+[https://www.esportset.com](https://www.esportset.com)
 [https://www.cyberset.org](https://www.cyberset.org) - то же самое, но на русском.
 
 [gatsby-starter-blog-grommet](https://github.com/Ganevru/gatsby-starter-blog-grommet) - стартер для Gatsby v2 основанный на Grommet v2 UI.
@@ -56,16 +57,12 @@ const Page = ({ location }) => (
 [behance.net/IvanGanev](https://www.behance.net/IvanGanev) - некоторая инфографика.
 
 ### Курсы:
-[www.Codecademy.com/ivanganev](https://www.codecademy.com/ivanganev) 
+[www.Codecademy.com/ivanganev](https://www.codecademy.com/ivanganev)
       `}
     </Markdown>
     <Box margin={{ vertical: 'medium' }} />
     <LangButtons pathname={location.pathname} />
   </Layout>
 );
-
-Page.propTypes = {
-  location: PropTypes.object,
-};
 
 export default Page;

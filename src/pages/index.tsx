@@ -1,7 +1,6 @@
 import { Box, Heading, Markdown } from 'grommet';
-import Helmet from 'react-helmet';
-import PropTypes from 'prop-types';
 import React from 'react';
+import Helmet from 'react-helmet';
 
 import LangButtons from '../components/LangButtons';
 import Layout from '../components/Layout';
@@ -12,7 +11,7 @@ const Page = ({ location }) => (
     <Helmet
       htmlAttributes={{ lang: 'en' }}
       meta={[
-        { name: 'description', content: 'Ivan Ganev, JavaScript developer' },
+        { name: 'description', content: 'Ivan Ganev, JavaScript developer' }
       ]}
       title="Ivan Ganev"
     />
@@ -21,7 +20,7 @@ const Page = ({ location }) => (
     <Markdown>
       {`
 Hi, I'm a JavaScript developer. I prefer to work with [React js](https://reactjs.org/), especially with SSG [Gatsby js](https://www.gatsbyjs.org/) and [Grommet](https://grommet.io/). I also work with [Node js](https://nodejs.org/), and everything related to these technologies.
-      
+
 I am ready to work as a freelancer, write me here: **iganevru@gmail.com**
 
 ###I prefer:
@@ -45,7 +44,7 @@ This is a list of what I prefer, but, of course, what I chose for myself does no
     <Markdown>
       {`
 ### My works:
-[https://www.esportset.com](https://www.esportset.com) - my main project at the moment.  
+[https://www.esportset.com](https://www.esportset.com) - my main project at the moment.
 [https://www.cyberset.org](https://www.cyberset.org) - russian version.
 
 [gatsby-starter-blog-grommet](https://github.com/Ganevru/gatsby-starter-blog-grommet) - a Gatsby v2 starter based on Grommet v2 UI.
@@ -59,16 +58,12 @@ This is a list of what I prefer, but, of course, what I chose for myself does no
 [behance.net/IvanGanev](https://www.behance.net/IvanGanev) - some infographics.
 
 ### Courses:
-[www.Codecademy.com/ivanganev](https://www.codecademy.com/ivanganev) 
+[www.Codecademy.com/ivanganev](https://www.codecademy.com/ivanganev)
       `}
     </Markdown>
     <Box margin={{ vertical: 'medium' }} />
     <LangButtons pathname={location.pathname} />
   </Layout>
 );
-
-Page.propTypes = {
-  location: PropTypes.object,
-};
 
 export default Page;
