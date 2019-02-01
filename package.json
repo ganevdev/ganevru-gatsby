@@ -12,7 +12,6 @@
   "scripts": {
     "build": "gatsby build",
     "precommit": "lint-staged",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "dev": "gatsby develop",
     "develop": "gatsby develop",
     "lint": "npm run lint:ts && npm run lint:js",
@@ -52,6 +51,9 @@
     "tslint": "^5.12.1",
     "tslint-config-prettier": "^1.17.0",
     "tslint-react": "^3.6.0"
+  },
+  "engines": {
+    "node": ">=8"
   },
   "husky": {
     "hooks": {
