@@ -58,7 +58,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged && npm i && gatsby build"
+      "pre-commit": "lint-staged && gatsby build"
     }
   },
   "lint-staged": {
