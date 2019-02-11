@@ -48,13 +48,17 @@ const Page = ({ location }) => (
 
 [gatsby-starter-blog-grommet](https://github.com/Ganevru/gatsby-starter-blog-grommet) - стартер для Gatsby v2 основанный на Grommet v2 UI.
 
+[split-proxy](https://github.com/Ganevru/split-proxy) - Разбитие строки с адресом прокси в объект с протоколом, адресом, портом, логином и паролем.
+
+[proxy-turn-over](https://github.com/Ganevru/proxy-turn-over) - Переворачивание адреса и логина:пароля у прокси.
+
 [enough-time-ago](https://github.com/Ganevru/enough-time-ago) - Node.js библиотека для проверки времени с момента создания, модификации или изменения файла.
 
 [eslint-config-ganevru](https://www.npmjs.com/package/eslint-config-ganevru) - мои eslint настройки.
 
 [Slime Solid Theme](https://marketplace.visualstudio.com/items?itemName=ganevru.slime-solid) - моя переделка темы Slime для VS Code.
 
-[ganevru-gatsby](https://github.com/Ganevru/ganevru-gatsby) - репозитарий этого сайта.
+[ganevru-gatsby](https://github.com/Ganevru/ganevru-gatsby) - репозиторий этого сайта.
 
 [behance.net/IvanGanev](https://www.behance.net/IvanGanev) - некоторая инфографика.
 
