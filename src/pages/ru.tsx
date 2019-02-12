@@ -52,6 +52,8 @@ const Page = ({ location }) => (
 
 [proxy-turn-over](https://github.com/Ganevru/proxy-turn-over) - Переворачивание адреса и логина:пароля у прокси.
 
+[proxy-to-string](https://github.com/Ganevru/proxy-to-string) - Создание строки из объекта прокси адреса.
+
 [enough-time-ago](https://github.com/Ganevru/enough-time-ago) - Node.js библиотека для проверки времени с момента создания, модификации или изменения файла.
 
 [eslint-config-ganevru](https://www.npmjs.com/package/eslint-config-ganevru) - мои eslint настройки.

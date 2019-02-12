@@ -53,6 +53,8 @@ This is a list of what I prefer, but, of course, what I chose for myself does no
 
 [proxy-turn-over](https://github.com/Ganevru/proxy-turn-over) - Flip ip address and login:password in proxy.
 
+[proxy-to-string](https://github.com/Ganevru/proxy-to-string) - Creating a proxy string from objects.
+
 [enough-time-ago](https://github.com/Ganevru/enough-time-ago) - A Node.js library for checking how much time has passed since file was modified, changed, created or accessed.
 
 [eslint-config-ganevru](https://www.npmjs.com/package/eslint-config-ganevru) - my personal eslint configurations.
