@@ -54,7 +54,7 @@ const Page = ({ location }) => (
 
 [proxy-to-string](https://github.com/Ganevru/proxy-to-string) - Создание строки из объекта прокси адреса.
 
-[enough-time-ago](https://github.com/Ganevru/enough-time-ago) - Node.js библиотека для проверки времени с момента создания, модификации или изменения файла.
+[enough-time-ago](https://www.npmjs.com/package/enough-time-ago) - Node.js библиотека для проверки времени с момента создания, модификации или изменения файла.
 
 [eslint-config-ganevru](https://www.npmjs.com/package/eslint-config-ganevru) - мои eslint настройки.
 
