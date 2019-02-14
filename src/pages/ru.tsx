@@ -23,7 +23,8 @@ const Page = ({ location }) => (
 
 Я работаю в качестве фрилансера, можете писать мне сюда: **iganevru@gmail.com**
 
-###Я предпочитаю:
+### Я предпочитаю:
+* [TypeScript](https://typescriptlang.org) вместо JavaScript.
 * [graphQL](https://www.graphql.org/) вместо REST API.
 * CSS in JS, особенно [styled-components](https://www.styled-components.com/), вместо CSS и любых css препроцессоров (если речь идет о React).
 * [MongoDB](https://www.mongodb.com/) вместо любых SQL баз данных.
@@ -49,6 +50,8 @@ const Page = ({ location }) => (
 [gatsby-starter-blog-grommet](https://github.com/Ganevru/gatsby-starter-blog-grommet) - стартер для Gatsby v2 основанный на Grommet v2 UI.
 
 [split-proxy](https://github.com/Ganevru/split-proxy) - Разбитие строки с адресом прокси в объект с протоколом, адресом, портом, логином и паролем.
+
+[proxy-simple-test](https://github.com/Ganevru/proxy-simple-test) - Простое тестирование прокси.
 
 [proxy-turn-over](https://github.com/Ganevru/proxy-turn-over) - Переворачивание адреса и логина:пароля у прокси.
 

@@ -23,7 +23,8 @@ Hi, I'm a JavaScript developer. I prefer to work with [React js](https://reactjs
 
 I am ready to work as a freelancer, write me here: **iganevru@gmail.com**
 
-###I prefer:
+### I prefer:
+* [TypeScript](https://typescriptlang.org) over JavaScript.
 * [graphQL](https://www.graphql.org/) over REST API.
 * CSS in JS, especially [styled-components](https://www.styled-components.com/), over CSS and any css preprocessors (if it comes to React).
 * [MongoDB](https://www.mongodb.com/) over any SQL database.
@@ -50,6 +51,8 @@ This is a list of what I prefer, but, of course, what I chose for myself does no
 [gatsby-starter-blog-grommet](https://github.com/Ganevru/gatsby-starter-blog-grommet) - a Gatsby v2 starter based on Grommet v2 UI.
 
 [split-proxy](https://github.com/Ganevru/split-proxy) - Split proxy string into protocol, ipAddress, port, login and password.
+
+[proxy-simple-test](https://github.com/Ganevru/proxy-simple-test) - Simple proxy testing.
 
 [proxy-turn-over](https://github.com/Ganevru/proxy-turn-over) - Flip ip address and login:password in proxy.
 
