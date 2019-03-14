@@ -27,7 +27,6 @@ const Page = ({ location }) => (
 * [TypeScript](https://typescriptlang.org) вместо JavaScript.
 * [graphQL](https://www.graphql.org/) вместо REST API.
 * CSS in JS, особенно [styled-components](https://www.styled-components.com/), вместо CSS и любых css препроцессоров (если речь идет о React).
-* [MongoDB](https://www.mongodb.com/) вместо любых SQL баз данных.
 * [React js](https://reactjs.org/) вместо [Vue js](https://vuejs.org/).
 * [Jest](https://jestjs.io) вместо [Mocha](https://mochajs.org/).
 * Любой UI фреймворк, особенно [Grommet](https://grommet.io/), вместо создания всего с нуля.

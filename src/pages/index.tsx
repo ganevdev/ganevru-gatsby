@@ -27,7 +27,6 @@ I am ready to work as a freelancer, write me here: **iganevru@gmail.com**
 * [TypeScript](https://typescriptlang.org) over JavaScript.
 * [graphQL](https://www.graphql.org/) over REST API.
 * CSS in JS, especially [styled-components](https://www.styled-components.com/), over CSS and any css preprocessors (if it comes to React).
-* [MongoDB](https://www.mongodb.com/) over any SQL database.
 * [React js](https://reactjs.org/) over [Vue js](https://vuejs.org/).
 * [Jest](https://jestjs.io) over [Mocha](https://mochajs.org/).
 * Any UI framework, especially [Grommet](https://grommet.io/), over starting from scratch.
