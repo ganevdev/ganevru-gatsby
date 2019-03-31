@@ -58,7 +58,7 @@ const Page = ({ location }) => (
 
 [enough-time-ago](https://www.npmjs.com/package/enough-time-ago) - Node.js библиотека для проверки времени с момента создания, модификации или изменения файла.
 
-[eslint-config-ganevru](https://www.npmjs.com/package/eslint-config-ganevru) - мои eslint настройки.
+[periodic-crawler](https://github.com/Ganevru/periodic-crawler)
 
 [Slime Solid Theme](https://marketplace.visualstudio.com/items?itemName=ganevru.slime-solid) - моя переделка темы Slime для VS Code.
 

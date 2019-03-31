@@ -59,7 +59,7 @@ This is a list of what I prefer, but, of course, what I chose for myself does no
 
 [enough-time-ago](https://www.npmjs.com/package/enough-time-ago) - A Node.js library for checking how much time has passed since file was modified, changed, created or accessed.
 
-[eslint-config-ganevru](https://www.npmjs.com/package/eslint-config-ganevru) - my personal eslint configurations.
+[periodic-crawler](https://github.com/Ganevru/periodic-crawler)
 
 [Slime Solid Theme](https://marketplace.visualstudio.com/items?itemName=ganevru.slime-solid) - changed Slime theme (for VS Code).
 
