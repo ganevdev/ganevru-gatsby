@@ -48,6 +48,8 @@ const Page = ({ location }) => (
 
 [gatsby-starter-blog-grommet](https://github.com/Ganevru/gatsby-starter-blog-grommet) - стартер для Gatsby v2 основанный на Grommet v2 UI.
 
+[apify.com/ganevru/webdesignernews-scraper](https://apify.com/ganevru/webdesignernews-scraper) - Веб-скрапер для www.webdesignernews.com, с использованием Apify.
+
 [split-proxy](https://github.com/Ganevru/split-proxy) - Разбитие строки с адресом прокси в объект с протоколом, адресом, портом, логином и паролем.
 
 [proxy-simple-test](https://github.com/Ganevru/proxy-simple-test) - Простое тестирование прокси.
