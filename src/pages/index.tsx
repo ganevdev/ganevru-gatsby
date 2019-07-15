@@ -43,9 +43,12 @@ This is a list of what I prefer, but, of course, what I chose for myself does no
 
     <Markdown>
       {`
+
+My Habr (ru lang): [habr.com/ru/users/ivanganev](https://habr.com/ru/users/ivanganev/posts)
+
 ### My works:
-[https://www.esportset.com](https://www.esportset.com) - my main project at the moment.
-[https://www.cyberset.org](https://www.cyberset.org) - russian version.
+[www.esportset.com](https://www.esportset.com) - my main project at the moment.
+[www.cyberset.org](https://www.cyberset.org) - russian version.
 
 [gatsby-starter-blog-grommet](https://github.com/Ganevru/gatsby-starter-blog-grommet) - a Gatsby v2 starter based on Grommet v2 UI.
 

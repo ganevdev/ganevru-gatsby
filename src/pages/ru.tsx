@@ -42,9 +42,12 @@ const Page = ({ location }) => (
 
     <Markdown>
       {`
+
+Я на Хабре: [habr.com/ru/users/ivanganev](https://habr.com/ru/users/ivanganev/posts)
+
 ### Мои работы:
-[https://www.esportset.com](https://www.esportset.com)
-[https://www.cyberset.org](https://www.cyberset.org) - то же самое, но на русском.
+[www.esportset.com](https://www.esportset.com)
+[www.cyberset.org](https://www.cyberset.org) - то же самое, но на русском.
 
 [gatsby-starter-blog-grommet](https://github.com/Ganevru/gatsby-starter-blog-grommet) - стартер для Gatsby v2 основанный на Grommet v2 UI.
 
